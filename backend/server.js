@@ -1,7 +1,7 @@
 require("dotenv").config();
 const connectDb = require("./lib/db")
 const cors = require("cors");
-const { path } = require("path")
+const path = require("path")
 const express = require("express");
 const cookieParser = require("cookie-parser")
 
